@@ -10,7 +10,7 @@ const Home: FC = () => {
       <main>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">About Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>We provide our best in servicing!.</p>
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Services</h2>
