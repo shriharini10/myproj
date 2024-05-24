@@ -22,7 +22,7 @@ const Home: FC = () => {
         </section>
         <section>
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p>Email: example@example.com</p>
+          <p>Email: shriharini.com</p>
           <p>Phone: 123-456-7890</p>
         </section>
       </main>
