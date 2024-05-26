@@ -1,4 +1,4 @@
-interface detail{
+interface detail {
     name:string;
     rollno:number;
     id:number;
@@ -6,11 +6,11 @@ interface detail{
     printst():void;
 }
 
-const stud:detail{
-    name:"harini",
-    rollno:02,
-    id:3714,
-    printst(){
+const stud:detail= {
+    name: "harini",
+    rollno: 02,
+    id: 3714,
+    printst() {
         console.log('${this.name} ${this.rollno}');
 };
 
