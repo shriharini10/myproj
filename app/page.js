@@ -1,12 +1,18 @@
+import styles from './Home.module.css';
+
 export default function Home() {
 
-    const isUserLoggedIn = false
+    const isUserLoggedIn = true;
 
-    const userName = 'HARINI'
+    const userName = 'HARINI';
 
     return (
-    <div>
-        {isUserLoggedIn?<h1>Welcome {userName}</h1>:<p>PLEASE LOG IN❗</p>}
+        <div className={styles.container}>
+        {isUserLoggedIn ? (
+            <h1 className={styles.welcomeMessage}>Welcome {userName}</h1>
+        ) : (
+            <p className={styles.loginMessage}>PLEASE LOG IN❗</p>
+        )}
     </div>
-    )
+    );
 }
